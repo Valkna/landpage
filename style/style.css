@@ -109,7 +109,6 @@ h2 {
     padding: 20px;
     color: var(cor05);
     font-family: 'Share Tech Mono', monospace;
-    text-shadow: 0px 1px 3px var(--cor03);
 }
 
 #topo img {
@@ -128,5 +127,41 @@ footer p {
 footer a:hover {
     text-decoration: underline;
     color: black;
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        margin: 0 auto;
+        margin-bottom: -30px;
+    }
+    header a {
+        font-size: 0.8em;
+        justify-content: center;
+        align-items: center;
+    }
+    main p {
+        text-align: justify;
+    }
+    .youtube {
+        width: 60vw; 
+        height: 30vh;
+        margin-left: 10px;
+    }
+
+    #rodape img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    #rodape ul, li {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: -20px;
+        
+        
+        
+    }
+    
+    
 }
 
