@@ -18,6 +18,10 @@ body a {
     color: var(--cor03);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 header {
     justify-content: center;
@@ -95,11 +99,11 @@ h2 {
 }
 
 
-.rodape {
+#rodape {
     text-align: center;
 }
 
-.rodape li {
+#rodape li {
     list-style-type: none;
     display: inline;
     padding: 20px;
@@ -108,11 +112,10 @@ h2 {
     text-shadow: 0px 1px 3px var(--cor03);
 }
 
-
-.rodape img {
-    height: 40px;
-    width: 40px;
+#topo img {
+    margin: 0 auto;
 }
+
 
 footer p {
     color: var(--cor03);
@@ -126,3 +129,4 @@ footer a:hover {
     text-decoration: underline;
     color: black;
 }
+
