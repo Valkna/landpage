@@ -111,6 +111,7 @@ h2 {
     font-family: 'Share Tech Mono', monospace;
 }
 
+
 #topo img {
     margin: 0 auto;
 }
@@ -129,6 +130,10 @@ footer a:hover {
     color: black;
 }
 
+
+
+/* ################ MEDIA QUERIES ########################## */
+
 @media screen and (max-width: 767px) {
     header {
         margin: 0 auto;
@@ -139,6 +144,7 @@ footer a:hover {
         justify-content: center;
         align-items: center;
     }
+    
     main p {
         text-align: justify;
     }
@@ -157,11 +163,5 @@ footer a:hover {
         display: flex;
         justify-content: space-evenly;
         margin-left: -20px;
-        
-        
-        
     }
-    
-    
 }
-
